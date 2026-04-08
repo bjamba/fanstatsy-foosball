@@ -1,0 +1,53 @@
+# Secrets
+.env
+.env.*
+
+# Local data
+data/
+
+# Model artifacts (large files)
+*.pkl
+*.pt
+*.joblib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# pytest
+.pytest_cache/
