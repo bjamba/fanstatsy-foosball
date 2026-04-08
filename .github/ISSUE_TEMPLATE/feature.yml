@@ -1,0 +1,54 @@
+name: Feature Request
+description: A new capability or enhancement
+labels: ["feature"]
+body:
+  - type: textarea
+    id: ask
+    attributes:
+      label: The Ask
+      description: What user or stakeholder need does this address? Why does it matter?
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What should this feature do? Be specific about the expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this is done?
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: dropdown
+    id: size
+    attributes:
+      label: Estimated Size
+      options:
+        - S — a few hours
+        - M — a few sessions (2-3 days)
+        - L — a full milestone week
+    validations:
+      required: true
+
+  - type: textarea
+    id: design
+    attributes:
+      label: Design Doc
+      description: Link to the relevant PRD, TDD, or design doc section (if applicable).
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Links to related issues, notebooks, or references.

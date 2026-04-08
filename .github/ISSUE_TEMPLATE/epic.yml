@@ -1,0 +1,51 @@
+name: Epic
+description: A large body of work spanning multiple features
+labels: ["epic"]
+body:
+  - type: textarea
+    id: ask
+    attributes:
+      label: The Ask
+      description: What stakeholder or user need does this epic address? What does success look like?
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Context needed to understand this epic. Link to PRODUCT_OVERVIEW, design docs, or prior work.
+    validations:
+      required: true
+
+  - type: textarea
+    id: features
+    attributes:
+      label: Features
+      description: List the features that make up this epic. Each will become its own issue.
+      value: |
+        - [ ] Feature 1
+        - [ ] Feature 2
+        - [ ] Feature 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: design
+    attributes:
+      label: Design Documents
+      description: Links to PRD, TDD, and any other design artifacts for this epic.
+    validations:
+      required: true
+
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Non-Goals
+      description: What is explicitly out of scope for this epic?
+
+  - type: textarea
+    id: learning
+    attributes:
+      label: Learning Objectives
+      description: What DS/ML/engineering concepts does this epic teach?
